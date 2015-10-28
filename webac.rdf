@@ -23,4 +23,18 @@
       <rdfs:subClassOf rdf:resource="http://fedora.info/definitions/v4/repository#Resource"/>
       <rdfs:isDefinedBy rdf:resource="http://fedora.info/definitions/v4/webac#"/>
     </rdfs:Class>
+
+    <rdfs:Class rdf:about="http://fedora.info/definitions/v4/webac#Update">
+      <rdfs:label xml:lang="en">WebAC Update mode</rdfs:label>
+      <rdfs:comment xml:lang="en">The class of update operations</rdfs:comment>
+      <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/auth/acl#Access"/>
+      <rdfs:isDefinedBy rdf:resource="http://fedora.info/definitions/v4/webac#"/>
+    </rdfs:Class>
+
+    <rdfs:Class rdf:about="http://fedora.info/definitions/v4/webac#Delete">
+      <rdfs:label xml:lang="en">WebAC Delete mode</rdfs:label>
+      <rdfs:comment xml:lang="en">The class of delete operations</rdfs:comment>
+      <rdfs:subClassOf rdf:resource="http://www.w3.org/ns/auth/acl#Access"/>
+      <rdfs:isDefinedBy rdf:resource="http://fedora.info/definitions/v4/webac#"/>
+    </rdfs:Class>
 </rdf:RDF>
